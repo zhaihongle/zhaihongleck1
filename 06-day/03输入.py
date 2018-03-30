@@ -1,0 +1,8 @@
+name =input("请输入名字")
+ print(name)
+age =input("请输入年龄")
+ print(age)
+height =input("请输入身高")
+ print(height)
+weight =input("请输入体重")
+ print(weight)

@@ -1,0 +1,27 @@
+SyntaxError: invalid syntax        无效的语法
+
+ File "02练习.py", line 12
+    print(name+Name）
+                   ^
+SyntaxError: invalid character in identifie  一个英文括号，一个中文括号
+
+
+  File "03输入.py", line 2
+    print(name)
+    ^
+IndentationError: unexpected indent    print 缩进错误   print 应该顶格写
+
+
+
+ File "02练习.py", line 18
+    print(age*age2)`
+                   ^
+SyntaxError: invalid syntax 语法错误  无效的语法
+
+
+
+Traceback (most recent call last):
+  File "07输入和输出.py", line 2, in <module>
+    account = input(请输账号)
+NameError: name '请输账号' is not defined   无效的名字 名字定义错误
+

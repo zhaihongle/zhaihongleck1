@@ -1,0 +1,12 @@
+name = "翟宏乐"
+age = 19
+weight = 65
+sex = "男"
+height = 181
+print(name)
+print(age)
+print(sex)
+print(height)
+name = "张"
+first_name = "三"
+print(name+first_name）
