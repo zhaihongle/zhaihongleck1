@@ -1,3 +1,6 @@
+SyntaxError: Non-ASCII character '\xe4' in file xx.py on line 1, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details  解决   python 不能翻译中文  在开头加# coding=utf-8
+ 
+
 SyntaxError: invalid syntax        无效的语法
 
  File "02练习.py", line 12
@@ -30,5 +33,13 @@ raceback (most recent call last):
   File "01条件语句.py", line 2, in <module>
     if money > 500:
 TypeError: unorderable types: str() > int()  排序错误 不可排序的类型 同类型的才能str+str   int+int
+
+
+ File "xx.py", line 2
+    print("nihao你好")
+    ^
+IndentationError: unexpected indent   缩进错误
+ 
+
 
 
