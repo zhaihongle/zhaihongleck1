@@ -1,0 +1,5 @@
+numbers = int(input("请输入数字"))
+selut1=int(selut1)
+if numbers/2 == selut1:
+    print(numbers+"等于偶数")
+
