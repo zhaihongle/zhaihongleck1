@@ -1,11 +1,12 @@
 x = 1
 y = 0
-v = 0
-while v <100:
-    x+=2
-    y_=2
-    v+=1
-print(x+y)
+while x <100:
+    if x%2 == 0:
+        y=y+x
+    else:
+        y=y-x
+    x+=1
+print(y)
 print("*"*30)
 x = 1
 while x <= 5000:
