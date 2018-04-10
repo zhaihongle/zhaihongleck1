@@ -81,12 +81,12 @@ while True:
                         elif sure ==5:
                             xx = input ('请输入更改后的地址')
                             card['地址'] = xx
-                    print('更改成功\n')
+                        print('更改成功\n')
                     break
                 if flag == False:
                     print('查无此人\n')
         if sure_number == 2:
-                name = input('请输入手机号')
+                name = int(input('请输入手机号'))
                 flag=False
                 for temp in cards:
                     if name ==temp['手机号']:
@@ -104,7 +104,7 @@ while True:
                         elif sure ==5:
                             xx = input ('请输入更改后的地址')
                             card['地址'] = xx
-                    print('更改成功\n')
+                        print('更改成功\n')
                     break
                 if flag == False:
                     print('没有这个手机号\n')
@@ -127,7 +127,7 @@ while True:
                         elif sure ==5:
                             xx = input ('请输入更改后的地址')
                             card['地址'] = xx
-                    print('更改成功\n')
+                        print('更改成功\n')
                     break
                 if flag == False:
                     print('查无此人\n')
@@ -150,7 +150,7 @@ while True:
                         elif sure ==5:
                             xx = input ('请输入更改后的地址')
                             card['地址'] = xx
-                    print('更改成功\n')
+                        print('更改成功\n')
                     break
                 if flag == False:
                     print('查无此人\n')
@@ -173,7 +173,7 @@ while True:
                         elif sure ==1:
                             xx = input ('请输入更改后的名字')
                             card['名字'] = xx
-                    print('更改成功\n')
+                        print('更改成功\n')
                     break
                 if flag == False:
                     print('查无此人\n')
