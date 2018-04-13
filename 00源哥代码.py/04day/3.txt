@@ -1,0 +1,4 @@
+print("dasdsa")
+
+if a  =100:
+	print()

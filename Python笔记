@@ -1,0 +1,56 @@
+Java 语言 ------虚拟机---- C- 01010101
+
+
+java语言  ----- javac编译  ————————   计算机读懂
+
+吃炒菜-----菜上齐----才开始吃
+
+
+
+python语言 ---- 边解释边执行 ------计算机读懂
+
+吃火锅-----边吃边涮----吃
+
+语法错误
+SyntaxError: Non-ASCII character '\xe4' in file 01-第一个python程序.py on line 1, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+#coding=utf-8
+
+
+命名错误     名字没被定义
+NameError: name 'pirnt' is not defined(定义)
+
+
+语法错误 无效的语法
+ File "02-问题.py", line 2
+    print(hello world)
+                    ^
+SyntaxError: invalid syntax
+
+
+字符串不能相乘
+can't multiply sequence by non-int of type 'str'
+
+
+
+
+在python2中 raw_input()和python3中的input()是一样的 他们输入进来的都是字符串
+
+在python2中 input()函数 如果要输入字符串要加一个引号
+
+
+break  跳出循环－－－－循环结束　　　　意思结束
+continue 跳过当次　－－－－接着执行下一次　　意思继续
+　
+作业：
+笔记20章所有练习题 在VI 别忘提交
+还有一些人罚单词  20遍
+还有一些人周考不及格 所有命令抄10遍
+周报 可以说你这周没明白 我讲的那些不明白 我讲的方式不对 这周学到了什么 还有对班级 对学校建议 发邮件的时候一定要告诉你谁  我是1803 xxx
+xmind Linux命令 python 变量  函数
+博客 一遍  安装输入法的步骤 安装sublime步骤 python中的print() 因为月考 每个月至少3篇   排版不好看的会扣分 如果想排版好看 请用 markdown
+单词量需要增加
+
+
+
+

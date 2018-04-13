@@ -1,0 +1,53 @@
+语法错误
+SyntaxError: Non-ASCII character '\xe4' in file 01-第一个python程序.py on line 1, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+#coding=utf-8
+
+
+命名错误     名字没被定义
+NameError: name 'pirnt' is not defined(定义)
+
+
+语法错误 无效的语法
+ File "02-问题.py", line 2
+    print(hello world)
+                    ^
+SyntaxError: invalid syntax
+
+
+字符串不能相乘
+can't multiply sequence by non-int of type 'str'
+
+
+NameError: name 'nmae' is not defined
+名字没被定义
+
+ValueError: invalid literal for int() with base 10: '狄仁杰'
+
+值转换　字符串能转整数
+
+
+TypeError: Can't convert 'int' object to str implicitly
+类型错误　　字符串不能和整数相加
+
+
+SyntaxError: can't assign to keyword
+关键字不能当做变量名
+
+
+
+        ^
+IndentationError: expected an indented block
+suoyijicuowu
+
+
+TypeError                                 Traceback (most recent call last)
+<ipython-input-3-18458ba600d2> in <module>()
+----> 1 person.insert("laosong")
+
+TypeError: insert() takes exactly 2 arguments (1 given)
+
+这个方法两个参数，你给我了一个
+
+
+
+

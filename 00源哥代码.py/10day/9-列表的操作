@@ -1,0 +1,19 @@
+对数据操作
+增
+insert(position,value) 根据索引插入值
+append(value) 
+extend(value)
+删
+pop() 弹出最后一个
+pop(position) 弹出指定
+remove(value) 删除指定值
+del list[position]
+clear
+改
+list[position] = value
+查
+list[postion]
+排序
+sort()升序
+sort(reverse=False)降序
+reverse()倒序

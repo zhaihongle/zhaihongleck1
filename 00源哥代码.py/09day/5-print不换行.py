@@ -1,0 +1,5 @@
+print("王者",end="")
+print("吃鸡")
+print("联盟")
+print("挑一挑")
+print("斗地主")
