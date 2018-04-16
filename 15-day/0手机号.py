@@ -1,5 +1,5 @@
-def check_phone():
-    if phone.starswith == '1' and len(phone)==11:
+def check_phone(phone):
+    if phone.startswith ('1') and len(phone)==11:
         return True
     else :
         return False

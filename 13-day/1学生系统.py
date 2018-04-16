@@ -12,8 +12,17 @@ while True:
         name = input ('请输入学生名字：')
         sleep = input('请输入是否住宿')
         sex = input('请输入性别')
-        f_name = input ('请输入家长姓名')
+        f_name =input ('请输入家长姓名')
+        def check_phone():
+            if phone.startswith('1') and len(phone) == 11: 
+                return True
+            else:
+               return False
         phone = input('请输入家长电话')
+        check = check_phone()
+        if check == False:
+            print('输入有误')
+            continue
         dict['name']=name
         dict['sleep']=sleep
         dict['sex']=sex

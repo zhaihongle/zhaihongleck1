@@ -55,6 +55,8 @@ def del_card():
             flag = True
             cards.remove(temp)
             print('ojbk')
+    if flag == False:
+        print('nobody')
 def change_card():
     name = input("你确定的细心")
     flag = False
