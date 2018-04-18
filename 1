@@ -1,0 +1,87 @@
+list = []
+def interface():
+    print('欢迎来到王者荣耀小学编辑系统'.center(30,"*"))
+    print('1-入学功能'.center(20," "))
+    print('2-请假功能'.center(20," "))
+    print('3-消假功能'.center(20," "))
+    print('4-退学功能'.center(20," "))
+    print('5-关闭系统'.center(20," "))
+def change():
+    while True:
+        choose_num = int( input('请选择功能'))
+        if choose_num == 1:
+            add_num()
+        if choose_num == 2:
+            go_class()
+        if choose_num == 3:
+            return_school()
+        if choose_num == 4:
+            leave_school()
+        if choose_num == 5:
+            print('退出系统')
+            break
+def add_num():
+        dict = {}
+        name = input ('请输入学生名字：')
+        sleep = input('请输入是否住宿')
+        sex = input('请输入性别')
+        f_name =input ('请输入家长姓名')
+        def check_phone():
+            if phone.startswith('1') and len(phone) == 11: 
+                return True
+            else:
+               return False
+        phone = input('请输入家长电话')
+        check = check_phone()
+        if check == False:
+            print('输入有误')
+            #continue
+        dict['name']=name
+        dict['sleep']=sleep
+        dict['sex']=sex
+        dict['f_name']=f_name
+        dict['phone']=phone
+        list.append(dict)
+        print('恭喜你成为王者荣耀小学的一员\n')
+def go_class():        
+        dict1={}
+        name = input ('请输入你的名字')
+        flag = False
+        for temp in list:
+            if name == temp['name']:
+                flag = True 
+                print('你是本校学生，可以离校')
+                time = input('请输入离校时间')
+                return_time = input('请输入返校时间')
+                print('')
+                dict1['name'] = name 
+                dict1['time'] = time
+                dict1['return_time'] = return_time
+                list.append(dict1)
+                break
+            for i in list:
+                if name == i['name']:
+                    print('该学生以经请假，无法再次请假\n')
+        if flag == False:
+            print('你输入的名字不是本校学生，不能离校\n')
+           
+            #continue
+def return_school():
+    name = input ('请输入名字')
+    for i in list:
+        if name == i['name']:
+            print('可以返校\n')
+        else:
+            print('不是本校学生')
+def leave_school():
+        name = input('请输入名字')
+        
+        if name == list[s_num]['name']:
+            print('允许退学\n')
+"""
+def xiao():
+    for i in list:
+        if name == i['name']
+"""
+interface()
+change()
