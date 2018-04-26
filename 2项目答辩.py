@@ -1,6 +1,6 @@
 list = []
 def interface():
-    print('欢迎来到王者荣耀小学编辑系统'.center(30,"*"))
+    print('欢迎来到请假系统'.center(30,"*"))
     print('1-入学功能'.center(20," "))
     print('2-请假功能'.center(20," "))
     print('3-消假功能'.center(20," "))
